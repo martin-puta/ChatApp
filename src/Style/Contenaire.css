@@ -1,0 +1,12 @@
+.chat_header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.chat_icons{
+    color: red;
+}
+.cht_logout{
+    color: rgb(23, 255, 255);
+}

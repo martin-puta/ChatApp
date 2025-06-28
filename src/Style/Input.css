@@ -1,0 +1,26 @@
+.inputTexte_contenaire {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.inputTexte_contenaire button {
+    width: 10%;
+    height: 50px;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: rgb(4, 170, 170);
+    border: none; /* meilleure pratique pour supprimer la bordure */
+    color: #fff;
+    cursor: pointer; /* pour le curseur */
+}
+
+.inputTexte_contenaire textarea {
+    width: 60%;
+    height: 50px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 18px;
+    resize: none; /* empêche de redimensionner */
+}

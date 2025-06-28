@@ -1,0 +1,62 @@
+/* File: Login.css */
+
+/* Container for the entire login component */
+.login-container {
+    display: flex;
+    flex-direction: column; /* Arrange items vertically */
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically if container has defined height */
+    padding: 20px;
+    /* Add more styling for the overall container if needed, e.g., background, border, etc. */
+}
+
+/* Styling for the login header (icon and title) */
+.login-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px; /* Space below the header */
+}
+
+/* Styling for the React icon */
+.login-icon {
+    margin-right: 10px; /* Space between icon and title */
+    color: rgb(23, 255, 255); /* Bright blue color */
+}
+
+/* Styling for the login form (input and button) */
+.login-form {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Align items vertically in the center */
+    gap: 10px; /* Space between input and button */
+}
+
+/* Styling for the input field */
+.login-form input {
+    height: 40px; /* Slightly increased height for better touch target */
+    width: 250px; /* Fixed width for consistency, adjust as needed */
+    border-radius: 10px;
+    border: 2px solid rgb(23, 255, 255); /* Shorthand for border properties */
+    font-size: 16px;
+    padding: 0 10px; /* Vertical and horizontal padding */
+    box-sizing: border-box; /* Include padding in the element's total width and height */
+}
+
+/* Styling for the login button */
+.login-form button {
+    width: 120px; /* Fixed width for consistency, adjust as needed */
+    height: 44px; /* Slightly larger than input for visual balance */
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: #075e54; /* WhatsApp green */
+    color: white;
+    border: none; /* Remove default button border */
+    cursor: pointer; /* Indicate it's clickable */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.login-form button:hover {
+    background-color: #064a42; /* Darker green on hover */
+}

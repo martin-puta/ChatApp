@@ -1,0 +1,37 @@
+.Chat_sender{
+ display: flex;
+ justify-content: flex-end;
+ flex-direction: row;
+}
+.Chat_sender img,
+.chat_recver img {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+}
+
+.Chat_sender p{
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  max-width: 60%;
+}
+
+
+.chat_recver{
+ display: flex;
+ justify-content: flex-start;
+ flex-direction: row;
+}
+.chat_recver p{
+  padding: 10px;
+  background-color: #aff6be;
+  border-radius: 10px;
+  max-width: 60%;
+}
+
+.chats_list{
+  height: 75vh;
+  overflow: scroll;
+  overflow: hidden;
+}
